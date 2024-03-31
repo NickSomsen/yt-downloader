@@ -1,0 +1,5 @@
+.idea
+*.iml
+.vscode
+venv
+node_modules
