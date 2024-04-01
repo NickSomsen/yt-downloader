@@ -6,7 +6,7 @@
               href="/"
               class="d-flex align-center text-h6 font-weight-bold text-decoration-none ga-1"
               style="color: inherit;"
-          ><v-img src="./src/assets/logo_no_text.png" width="70"></v-img>YTDownloader</a>
+          ><v-img src="@/assets/logo_no_text.png" width="70"></v-img>YTDownloader</a>
         </v-app-bar-title>
     </v-app-bar>
     <v-main>

@@ -8,7 +8,7 @@
               <v-expand-transition>
                 <v-img
                     v-show="showInstruction"
-                    src="./src/assets/browser_wireframe.png"
+                    src="@/assets/browser_wireframe.png"
                     width="700"
                     class="align-self-center"
                 >

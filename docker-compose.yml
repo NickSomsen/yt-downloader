@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  yt-downloader-be:
+    image: "nicksomsen/yt-downloader-be"
+    container_name: "yt-downloader-be"
+    build: ./backend
+    ports:
+      - "8000:8000"
+  yt-downloader-fe:
+    image: "nicksomsen/yt-downloader-fe"
+    container_name: "yt-downloader-fe"
+    build: ./frontend
+    ports:
+      - "8080:8080"

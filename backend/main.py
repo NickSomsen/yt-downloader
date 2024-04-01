@@ -35,7 +35,10 @@ class URL(BaseModel):
 
 # define the origins that are allowed to request this back-end
 origins = [
-    "http://localhost:5173"  # URL of front-end Vue app
+    "http://localhost:5173",  # front-end development server origin
+    "http://127.0.0.1:5173",
+    "http://localhost:8080",  # docker-container http server origin
+    "http://127.0.0.1:8080"
 ]
 
 app.add_middleware(
