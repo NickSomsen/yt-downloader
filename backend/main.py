@@ -4,7 +4,7 @@ from fastapi.responses import FileResponse
 from contextlib import asynccontextmanager
 from pydantic import BaseModel
 from video import Video
-from pytube.exceptions import PytubeError, VideoUnavailable
+from pytubefix.exceptions import PytubeFixError, VideoUnavailable
 import os
 import shutil
 
@@ -62,7 +62,7 @@ async def video(url: URL):
         msg = f"The requested video {reason}."
         raise HTTPException(status_code=404,
                             detail=msg)
-    except PytubeError as e:
+    except PytubeFixError as e:
         raise HTTPException(status_code=404,
                             detail=str(e))
 

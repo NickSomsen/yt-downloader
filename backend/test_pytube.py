@@ -1,4 +1,4 @@
-from pytube import YouTube
+from pytubefix import YouTube
 from PIL import Image
 import requests
 import matplotlib
