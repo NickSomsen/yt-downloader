@@ -4,7 +4,7 @@ Easily download YouTube videos using just the video URL🔗.
 
 ![screenshot](yt-downloader_ss.png)
 
-Created by [Nick Somsen](mailto:nicksomsen@gmail.com) using [pytube](https://github.com/pytube/pytube).
+Created by [Nick Somsen](mailto:nicksomsen@gmail.com) using [pytubefix](https://github.com/JuanBindez/pytubefix).
 
 ### Installation
 Docker and Docker Compose must be installed. See https://docs.docker.com/get-docker/ to install Docker on your operating system.
